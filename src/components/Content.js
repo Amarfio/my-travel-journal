@@ -19,8 +19,12 @@ export default function Content(){
     });
 
     return (
-        <div className="container">
-            {travelElements}
+        <div className="row">
+            <div className="col-md-2"></div>
+                <div className="col-md-8">
+                    {travelElements}
+                </div>
+            <div className="col-md-2"></div>
         </div>
     );
 }
